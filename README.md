@@ -22,7 +22,7 @@ In this repository, we demonstrate ArchVelo on 3 different single-cell multi-omi
 |&emsp; |-- **util_atac.py**: utility methods for the ATAC component \
 |&emsp; |-- **util_regression.py**: utility for the regression \
 |-- **ArchVelo.py**: ArchVelo methods \
-|-- **UTV_metrics.py**: Metrics required for benchmarking \
+|-- **UTV_metrics.py**: Metrics required for benchmarking
 
 
 
