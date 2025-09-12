@@ -5,7 +5,7 @@ ArchVelo is a method for modeling gene regulation and inferring cell trajectorie
 
 In this repository, we demonstrate ArchVelo on 3 different single-cell multi-omic datasets: mouse embryonic brain, human hematopoietic stem cells and CD8 T cells responding to acute and chronic viral infections. The notebooks for every dataset are numbered according to their order in the pipeline. The current core structure of every folder after downloading required raw data will be as follows:
 
-|--**Dataset_name**
+|--**Dataset_name** \
 |&emsp; |-- **data**: raw data that requires preprocessing \
 |&emsp; |-- **processed_data**: processed data to run the notebooks \
 |&emsp; |-- **seurat_wnn**: auxiliary weighted nearest neighbor information \
