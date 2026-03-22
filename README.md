@@ -8,21 +8,14 @@ In this repository, we demonstrate ArchVelo on 3 different single-cell multi-omi
 |--**Dataset_name** \
 |&emsp; |-- **data**: raw data that requires preprocessing \
 |&emsp; |-- **processed_data**: processed data to run the notebooks \
-|&emsp; |-- **seurat_wnn**: auxiliary weighted nearest neighbor information \
 |&emsp; |-- **1_Data_preparation.ipynb**: process data for ArchVelo analysis and benchmarking \
 |&emsp; |-- **2_Create_archetypes.ipynb**: apply archetypal analysis (AA) to the dataset \
-|&emsp; |-- **3_ArchVelo_apply.ipynb**: apply ArchVelo to the dataset \
-|&emsp; |-- **4_Compare_latent_times.ipynb**: benchmark ArchVelo against MultiVelo and scVelo \
-|&emsp; |-- **5_CBDir.ipynb**: another benchmark of ArchVelo against MultiVelo and scVelo \
+|&emsp; |-- **3_ArchVelo.py**: apply ArchVelo to the dataset, with other options \
+|&emsp; |-- **4_Compare_latent_times.ipynb**: benchmark for fit and latent time robustness \
+|&emsp; |-- **5_CBDir_full_bench.ipynb**: benchmark for trajectory accuracy \
 |&emsp; |-- **6_Trajectory_components.ipynb**: trajectory decomposition and interpretation of ArchVelo results \
-|-- **archetypal_regression**: AA for the ATAC modality and ATAC-to-RNA regression code \
-|&emsp; |-- **archetypes.py**: delta-AA analysis (see https://github.com/ulfaslak/py_pcha) \
-|&emsp; |-- **archetypes_regression.py**: module for ATAC-to-RNA regression \
-|&emsp; |-- **util.py**: utility methods \
-|&emsp; |-- **util_atac.py**: utility methods for the ATAC component \
-|&emsp; |-- **util_regression.py**: utility for the regression \
-|-- **ArchVelo.py**: ArchVelo methods \
-|-- **UTV_metrics.py**: Metrics required for benchmarking
+|&emsp; |-- **7_Test_Robustness.py**: test robustness to k \
+|&emsp; |-- **7_Robustness_analysis_k.ipynb**: visualization of test results \
 
 
 
