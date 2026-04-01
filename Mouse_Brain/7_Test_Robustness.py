@@ -1,3 +1,5 @@
+# This code applies ArchVelo to the mouse embryonic brain dataset at different values of parameter k
+
 import ArchVelo as av
 import numpy as np
 import pandas as pd
@@ -33,6 +35,7 @@ for k in range(6,20,2):
     cur_model_outdir = model_outdir+str(k)+'_comps/'
     os.makedirs(cur_outdir, exist_ok = True)
     os.makedirs(cur_model_outdir, exist_ok = True)
+    # load results of AA for k
     f = open(cur_outdir+'res.p', 'rb')
     res = pickle.load(f)
     f.close()
