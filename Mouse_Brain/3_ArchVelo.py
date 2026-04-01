@@ -47,7 +47,7 @@ data_outdir = 'processed_data/'
 # results of AA
 arch_dir = 'modeling_results/archetypes/'
 
-# Run if seurat_wnn neighbors not yet available
+# Choose if seurat_wnn neighbors not yet available
 nn_idx = None
 nn_dist = None
 
@@ -55,7 +55,7 @@ nn_dist = None
 model_outdir = 'modeling_results/'+suff+'/'+str(num_comps)+'_comps/'
 os.makedirs(model_outdir, exist_ok = True)
 
-# Run when seurat_wnn neighbors are already available, e.g., at the benchmarking stage
+# Choose if seurat_wnn neighbors are already available, e.g., at the benchmarking stage
 # nn_idx = np.loadtxt(model_outdir+'seurat_wnn/'+suff+'/nn_idx_arch.txt', delimiter=',')
 # nn_dist = np.loadtxt(model_outdir+'seurat_wnn/'+suff+'/nn_dist_arch.txt', delimiter=',')
 

@@ -14,7 +14,7 @@ In this repository, we demonstrate ArchVelo on 3 different single-cell multi-omi
 |&emsp; |-- **4_Compare_latent_times.ipynb**: benchmark for fit and latent time robustness \
 |&emsp; |-- **5_CBDir_full_bench.ipynb**: benchmark for trajectory accuracy \
 |&emsp; |-- **6_Trajectory_components.ipynb**: trajectory decomposition and interpretation of ArchVelo results \
-|&emsp; |-- **7_Test_Robustness.py**: test robustness to k \
+|&emsp; |-- **7_Test_Robustness.py**: test robustness to k (number of archetypes)\
 |&emsp; |-- **7_Robustness_analysis_k.ipynb**: visualize test results
 
 
