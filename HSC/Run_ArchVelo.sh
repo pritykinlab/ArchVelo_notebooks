@@ -5,6 +5,6 @@
 echo "Slurm job started"
 
 # Run your Python script (add arguments if necessary)
-python ArchVelo_slurm.py
+python 3_ArchVelo.py
 
 echo "Slurm job finished"
