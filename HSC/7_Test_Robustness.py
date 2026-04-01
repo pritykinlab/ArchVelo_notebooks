@@ -1,3 +1,5 @@
+# This code applies ArchVelo to the HSC dataset at different values of parameter k
+
 import ArchVelo_fix_AA as av
 import numpy as np
 import pandas as pd
@@ -31,13 +33,14 @@ peak_annotation.index = peak_annotation['summit_name']
 
 np.random.seed(42)
 
-for k in range(5,20,2):
+for k in range(7,20,2):
     nn_idx = None
     nn_dist = None
     cur_outdir = arch_outdir+str(k)+'_comps/'
     cur_model_outdir = model_outdir+str(k)+'_comps/'
     os.makedirs(cur_outdir, exist_ok = True)
     os.makedirs(cur_model_outdir, exist_ok = True)
+    # load results of AA for k
     f = open(cur_outdir+'res.p', 'rb')
     res = pickle.load(f)
     f.close()
